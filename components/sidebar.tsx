@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+
 import Image from "next/image";
 import { Montserrat } from "next/font/google";
 import { cn } from "@/lib/utils";
@@ -28,7 +29,7 @@ fill
                    </div> 
                 </Link>
                 <div className="space-y-1">
-                    <Link></Link>
+                    {routes.map((route))}
                 </div>
            </div>
         </div>
